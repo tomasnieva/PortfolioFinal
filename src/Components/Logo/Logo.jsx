@@ -1,12 +1,17 @@
-import { Box } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
 
 const Logo = () => {
     return(
       <>
-        <Box as='logo'>
-            <img src="" alt="" />
-            <h1>tomi</h1>
+        <Box>
+            <img src='' alt="" />
+            <Text 
+            color='#D5E1F0'
+            fontSize='23'
+            textTransform='uppercase'>
+              tomi
+            </Text>
         </Box>
       </>
     )

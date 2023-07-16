@@ -14,8 +14,8 @@ import { Footer } from './Components/Footer/Footer.jsx'
 import { Copyright } from './Components/Copyright/Copyright.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ChakraProvider>
+  <ChakraProvider>
+    <React.StrictMode>
       <Header/>
       <Hero/>
       <SectionAbout/>
@@ -26,6 +26,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Footer/>
       <Copyright/>
       <App />
-    </ChakraProvider>
-  </React.StrictMode>,
+    </React.StrictMode>,
+  </ChakraProvider>
 )
